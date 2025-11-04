@@ -1,0 +1,39 @@
+.card {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    max-width: 300px;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px solid #e30613
+}
+
+.cardTitle {
+    color: white;
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.cardPrice {
+    color: #e30613;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+} 
+
+.cardDescription {
+    color: #bbb;
+    font-size: 0.9em;
+}
