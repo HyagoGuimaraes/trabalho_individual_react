@@ -1,8 +1,11 @@
 body  {
   margin: 0;
   padding: 0;
-  background-color: #000000;
   font-family: Arial, sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../src/assets/fundo-de-tela.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;;
 }
 
 #root {
@@ -12,7 +15,6 @@ body  {
 
 .App {
   min-height: 100vh;
-  background-color: #000000;
   color: white;
   display: flex;
   justify-content: center;

@@ -1,0 +1,140 @@
+.loginContainer {
+    width: 90%; 
+    max-width: none; 
+    margin: 0; 
+    padding: 25px 20px;
+    background-color: #121212;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(227, 6, 19, 0.5); 
+    text-align: center;
+}
+
+.loginTitle {
+    color: #E30613;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+.loginPageLayout {
+    min-height: 100vh;
+    /* background-color: #000000; */
+    color:white;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.loginMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 400px);
+    padding: 20px 0;
+}
+
+.header {
+    background-color: #121212;
+    padding: 15px 0px;
+    border-bottom: 3px solid #E30613;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navLink {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #E30613;
+}
+
+.logoutButton {
+    background-color: #E30613;
+    color: white;
+    border: none;  
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.logoutButton:hover {
+    background-color: #ff3344; 
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(227, 6, 19, 0.5); 
+}
+
+.logoutButton:active {
+    background-color: #cc0000; 
+    transform: translateY(0);
+}
+
+.headerTitle {
+    color: white;
+    font-size: 2em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #121212;
+    padding: 15px 0;
+    border-top: 3px solid #E30613;
+    text-align: center;
+}
+
+.footerCopy {
+    color: #aaaaaa;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+@media (min-width: 768px) {
+    .loginContainer {
+        max-width: 80%; 
+        padding: 40px;
+        margin: 0 auto; 
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(227, 6, 19, 0.5);
+    }
+}
+
+@media (min-width: 1024px) {
+    .loginContainer {
+        max-width: 400px; 
+        margin: 0 auto;
+        padding: 30px;
+    }
+}
